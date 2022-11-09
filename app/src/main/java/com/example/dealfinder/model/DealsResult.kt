@@ -1,0 +1,32 @@
+package com.example.dealfinder.model
+
+data class DealsResult(
+    val asin: String,
+    val current_price: CurrentPrice,
+    val current_price_lower: CurrentPriceLower,
+    val current_price_upper: CurrentPriceUpper,
+    val deal_id: String,
+    val deal_price: DealPrice,
+    val deal_price_lower: DealPriceLower,
+    val deal_price_upper: DealPriceUpper,
+    val deal_type: String,
+    val description: String,
+    val ends_at: String,
+    val free_shipping: Boolean,
+    val image: String,
+    val is_lightning_deal: Boolean,
+    val is_map: Boolean,
+    val is_prime: Boolean,
+    val link: String,
+    val list_price: ListPrice,
+    val list_price_lower: ListPriceLower,
+    val list_price_upper: ListPriceUpper,
+    val merchant_name: String,
+    val position: Int,
+    val rating: Double,
+    val ratings_total: Int,
+    val seller_id: String,
+    val starts_at: String,
+    val title: String,
+    val type: String
+)

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SelectActivity">
+
+
+    <TextView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO DEAL FINDER"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="?attr/colorError"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <Button
+        android:id="@+id/buttonDeal"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_below="@+id/calendar"
+        android:layout_marginTop="111dp"
+        android:background="@color/teal_700"
+        android:text="BEST DEALS"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/buttonBest"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_below="@+id/buttonDeal"
+        android:layout_marginTop="111dp"
+        android:background="@color/teal_700"
+        android:text="BEST SELLERS"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+
+</RelativeLayout>
